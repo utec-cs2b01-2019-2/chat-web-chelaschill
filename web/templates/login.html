@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+  margin: 0px;
+  padding: 0px;
+  background: #78798D;
+}
+
+.inner-screen{
+  width: 800px;
+  height: 340px;
+  background: #334491;
+  margin: 0px auto;
+  padding-top: 50px;
+}
+
+.form{
+  width: 400px;
+  height: 230px;
+  background: #edeff1;
+  margin: 0px auto;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+input[type="text"]{
+  display: block;
+  width: 309px;
+  height: 35px;
+  margin: 15px auto;
+  background: #fff;
+  border: 0px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+input[type="password"]{
+  display: block;
+  width: 309px;
+  height: 35px;
+  margin: 15px auto;
+  background: #fff;
+  border: 0px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+input[type="submit"]{
+  display: block;
+  width: 309px;
+  height: 35px;
+  margin: 15px auto;
+  background: #42B5C8;
+  border: 0px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+input[type= "password"]:focus{
+  border:2px solid #AA2513
+}
+
+input[type= "submit"]:hover{
+  background: #09cca6
+}
+
+a{
+  text-align: center;
+  font-family: arial;
+  color: red;
+  display: block;
+  margin: 15px auto;
+  text-decoration: none;
+  transittion: all 0.5s ease;
+  font-size: 12px;
+}
+    </style>
+</head>
+<body>
+
+<div class ="inner-screen">
+    <div class ="form">
+        <form method="post" action ="/login">
+       <input type = "text" name="usuario" placeholder= "Ingresa tu correo"/>
+       <input type = "password" name="password" placeholder = "Contraseña" />
+       <input type = "submit" value = "Login" />
+       <a href ="https://www.pqs.pe/emprendimiento/clave-sol-como-recuperar-internet">Perdiste tu clave?</a>
+       </form>
+    </div>
+</div>
+
+<body style="background-color:#8F94CE;"></body>
+
+
+
+</body>
+</html>
