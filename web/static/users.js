@@ -35,20 +35,15 @@ $(function(){
         columns: [{
             dataField: "id",
             dataType: "number",
-            allowEditing: true
-        }, {
-            dataField: "content"
-        }, {
-            dataField: "sent_on"
             allowEditing: false
         }, {
-            dataField: "from_user_id"
+            dataField: "username"
         }, {
-            dataField: "to_user_id"
+            dataField: "name"
         }, {
-            dataField: "from_user_name"
+            dataField: "fullname"
         }, {
-            dataField: "to_user_name"
+            datafiel: "password"
         }, ],
     }).dxDataGrid("instance");
 });
